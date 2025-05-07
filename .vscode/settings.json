@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "src",
+        "Taller"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": []
+}

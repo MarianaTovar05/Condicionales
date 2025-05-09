@@ -4,17 +4,17 @@
  public class compu2 {
      public static void main(String []args) {
          Scanner scanner = new Scanner(System.in); 
-       System.out.println("agregar el numero");
+       System.out.println("Agregar el numero");
        int  number = Integer.parseInt(scanner.nextLine()); 
  
      if (number> 0) {
-       System.out.println("es positivo");
+       System.out.println("Es positivo");
        
      } else if ( number == 0) {
-     System.out.println("es cero"); 
+     System.out.println("Es cero"); 
  
      } else {
-       System.out.println("es negativo");
+       System.out.println("Es negativo");
      }
      }
    }

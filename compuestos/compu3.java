@@ -1,21 +1,16 @@
-/*numero positivo o negativo:  verifica si un nuemero 
- es positivo o negativo. */
+/*Número es par o impar*/
  import java.util.Scanner; 
- public class main {
+ public class compu3{
      public static void main(String []args) {
-     
-         Scanner scanner = new Scanner(System.in); 
-       System.out.println("agregar el numero");
+       Scanner scanner = new Scanner(System.in); 
+       System.out.println("Agrega un numero");
        int  number = Integer.parseInt(scanner.nextLine()); 
  
-     if (number> 0) {
-       System.out.println("es positivo");
+     if (number % 2 == 0) {
+       System.out.println("Es par");
        
-     } else if ( number == 0) {
-     System.out.println("es cero"); 
- 
      } else {
-       System.out.println("es negativo");
-     }
+     System.out.println("Es impar");
      }
    }
+  }

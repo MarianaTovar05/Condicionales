@@ -2,10 +2,10 @@
  Nota academica: ingresa una nota y clasifica "Desaprobado" (<10), "Regular" (10-13), "Bueno" (14-17), "Excelente" (18-20).
  */
 import java.util.Scanner;
-public class main { 
+public class compu5 { 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
-    System.out.println("nota academica");
+    System.out.println("Nota academica");
 
     int note= Integer.parseInt(scanner.nextLine()); 
 

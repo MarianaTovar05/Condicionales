@@ -3,10 +3,10 @@
  */
 import java.util.Scanner;
 
-public class main {
+public class simple9{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); 
-        System.out.println("nombre es");
+        System.out.println("Su nombre es");
         String name = scanner.nextLine(); 
 
     if (name.length()>8){
@@ -14,7 +14,7 @@ public class main {
     
      }
     if (name.length()<8) {
-        System.out.println("tiene meno de 8 caracteres");
+        System.out.println("tiene menos de 8 caracteres");
     }
     }
 }

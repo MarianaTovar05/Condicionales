@@ -2,7 +2,7 @@
  Salario alto: pide un salrio mensual y muestre si supera los $3000.
  */
 import java.util.Scanner;
-public class main {
+public class simple10{
   public static void main(String []args) {
   Scanner scanner = new Scanner(System.in); 
   System.out.println("salario mensual");

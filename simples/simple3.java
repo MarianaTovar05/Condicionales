@@ -3,7 +3,7 @@ Temperatura alta: pide una temperatura y muestra si esta por encima de 30°C.
  */
 import java.util.Scanner;
 
-public class main {
+public class simple3 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
